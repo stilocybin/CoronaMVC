@@ -1,0 +1,115 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(248, 248, 248);
+  color: rgb(0, 0, 0);
+}
+a {
+  text-decoration: none;
+  color: rgb(175, 175, 175);
+}
+a:hover {
+  color: #fff;
+}
+h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.titlediv {
+  background-color: rgb(6, 0, 90);
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.navitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(6, 0, 90);
+  padding: 1rem;
+}
+
+ul li {
+  list-style: none;
+  padding: 0 2rem;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.container {
+  height: 60vh;
+}
+.inzidenzform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tageswoche {
+  margin-right: 1rem;
+}
+.tagesselect {
+  margin-right: 1rem;
+  background-color: rgb(6, 0, 90);
+  height: 2rem;
+  width: 7rem;
+  color: #fff;
+  border: none;
+}
+.tagessubmit {
+  background-color: rgb(6, 0, 90);
+  height: 2rem;
+  color: #fff;
+  border: none;
+  width: 6rem;
+}
+.tagessubmit:hover {
+  background-color: rgb(41, 35, 128);
+  height: 2rem;
+  color: #fff;
+  border: none;
+  width: 6rem;
+}
+.tagesinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+.graph1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+select {
+  margin-right: 1rem;
+}
+.fallform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+.fallbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
